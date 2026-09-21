@@ -1,0 +1,21 @@
+﻿id,is_hallucination,types,severity,actual,outcome,reason
+h01,True,政策与优惠,高,True,TP,检出 3 处风险，建议按证据复核。
+h02,True,产品参数,中,True,TP,检出 3 处风险，建议按证据复核。
+h03,True,能力越界,高,True,TP,检出 1 处风险，建议按证据复核。
+h04,True,政策与优惠,中,True,TP,检出 2 处风险，建议按证据复核。
+h05,True,政策与优惠、能力越界,高,True,TP,检出 2 处风险，建议按证据复核。
+h06,True,产品参数、政策与优惠,高,True,TP,检出 2 处风险，建议按证据复核。
+h07,True,事实信息,高,True,TP,检出 1 处风险，建议按证据复核。
+h08,True,政策与优惠,中,True,TP,检出 3 处风险，建议按证据复核。
+h09,True,产品参数,中,True,TP,检出 1 处风险，建议按证据复核。
+h10,True,能力越界,高,True,TP,检出 1 处风险，建议按证据复核。
+h11,True,事实信息,中,True,TP,检出 1 处风险，建议按证据复核。
+h12,False,,无,False,TN,未命中已实现规则；未检出不等于验证真实，建议人工抽检。
+h13,True,安全误导、事实信息,高,True,TP,检出 2 处风险，建议按证据复核。
+h14,True,能力越界,高,True,TP,检出 1 处风险，建议按证据复核。
+h15,True,事实信息,中,True,TP,检出 1 处风险，建议按证据复核。
+h16,True,事实信息,中,False,FP,检出 1 处风险，建议按证据复核。
+h17,True,产品参数,中,True,TP,检出 1 处风险，建议按证据复核。
+h18,True,能力越界,高,True,TP,检出 1 处风险，建议按证据复核。
+h19,True,政策与优惠,中,True,TP,检出 1 处风险，建议按证据复核。
+h20,True,误导性遗漏,中,True,TP,检出 1 处风险，建议按证据复核。

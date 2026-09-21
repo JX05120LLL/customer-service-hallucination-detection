@@ -1,0 +1,10 @@
+Name                                Stmts   Miss Branch BrPart  Cover   Missing
+-------------------------------------------------------------------------------
+hallucination_guard\__init__.py         0      0      0      0   100%
+hallucination_guard\__main__.py        68      1     10      1    97%   88
+hallucination_guard\detector.py       128      0     62      0   100%
+hallucination_guard\evaluation.py      60      0     30      0   100%
+hallucination_guard\io.py              37      3     24      3    90%   11, 38-40
+hallucination_guard\reporting.py       38      0      8      0   100%
+-------------------------------------------------------------------------------
+TOTAL                                 331      4    134      4    98%

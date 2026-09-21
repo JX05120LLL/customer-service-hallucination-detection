@@ -1,0 +1,47 @@
+test_detect_does_not_need_truth (tests.test_cli.CLITests.test_detect_does_not_need_truth) ... FAIL
+test_full_offline_workflow_and_separate_evaluation (tests.test_cli.CLITests.test_full_offline_workflow_and_separate_evaluation) ... FAIL
+test_invalid_input_exits_cleanly (tests.test_cli.CLITests.test_invalid_input_exits_cleanly) ... FAIL
+test_output_cannot_overwrite_input (tests.test_cli.CLITests.test_output_cannot_overwrite_input) ... FAIL
+
+======================================================================
+FAIL: test_detect_does_not_need_truth (tests.test_cli.CLITests.test_detect_does_not_need_truth)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\my_home\简历面试\客服回复幻觉检测\tests\test_cli.py", line 42, in test_detect_does_not_need_truth
+    self.assertEqual(result.returncode, 0, result.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : D:\python-3.13.1\python.exe: No module named hallucination_guard.__main__; 'hallucination_guard' is a package and cannot be directly executed
+
+
+======================================================================
+FAIL: test_full_offline_workflow_and_separate_evaluation (tests.test_cli.CLITests.test_full_offline_workflow_and_separate_evaluation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\my_home\简历面试\客服回复幻觉检测\tests\test_cli.py", line 21, in test_full_offline_workflow_and_separate_evaluation
+    self.assertEqual(result.returncode, 0, result.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : D:\python-3.13.1\python.exe: No module named hallucination_guard.__main__; 'hallucination_guard' is a package and cannot be directly executed
+
+
+======================================================================
+FAIL: test_invalid_input_exits_cleanly (tests.test_cli.CLITests.test_invalid_input_exits_cleanly)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\my_home\简历面试\客服回复幻觉检测\tests\test_cli.py", line 47, in test_invalid_input_exits_cleanly
+    self.assertEqual(result.returncode, 2)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 2
+
+======================================================================
+FAIL: test_output_cannot_overwrite_input (tests.test_cli.CLITests.test_output_cannot_overwrite_input)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\my_home\简历面试\客服回复幻觉检测\tests\test_cli.py", line 57, in test_output_cannot_overwrite_input
+    self.assertEqual(result.returncode, 2)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 2
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.146s
+
+FAILED (failures=4)

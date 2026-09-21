@@ -1,0 +1,18 @@
+test_io_reporting (unittest.loader._FailedTest.test_io_reporting) ... ERROR
+
+======================================================================
+ERROR: test_io_reporting (unittest.loader._FailedTest.test_io_reporting)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_io_reporting
+Traceback (most recent call last):
+  File "D:\python-3.13.1\Lib\unittest\loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+  File "D:\my_home\��������\�ͷ��ظ��þ����\tests\test_io_reporting.py", line 6, in <module>
+    from hallucination_guard.io import load_records, write_json
+ModuleNotFoundError: No module named 'hallucination_guard.io'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

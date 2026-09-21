@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-09-20T13:25:04+00:00",
+  "detector_version": "rules-v1",
+  "mode": "offline-rules",
+  "input_sha256": "6c41c270542e9b7cd234aa3105b1539ff038559fefaac503d872209636fb1e56",
+  "truth_sha256": "b57fa85809f52cecd6ee19a0cb4f8effc3e75b125f6488076143629b4229b638",
+  "evaluation_note": "已查看样本上的规则基线；非盲测、非线上泛化指标"
+}

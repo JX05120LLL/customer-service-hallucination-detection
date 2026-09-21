@@ -1,0 +1,14 @@
+[project]
+name = "hallucination-guard"
+version = "1.0.0"
+description = "Offline evidence-based customer service hallucination detector"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.coverage.run]
+source = ["hallucination_guard"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 80

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "h01",
+    "is_hallucination": true,
+    "hallucination_type": "政策编造",
+    "detail": "回复称支持30天无理由退货且运费由商家承担，实际政策为7天无理由且非质量问题运费买家承担。编造了更宽松的退货政策。"
+  },
+  {
+    "id": "h02",
+    "is_hallucination": true,
+    "hallucination_type": "参数编造",
+    "detail": "蓝牙版本从5.0编造为5.3，多设备连接和40ms延迟均为杜撰。"
+  },
+  {
+    "id": "h03",
+    "is_hallucination": true,
+    "hallucination_type": "能力越界",
+    "detail": "系统未接入物流查询接口，却声称查到了具体位置。属于假装具备不具备的能力。"
+  },
+  {
+    "id": "h04",
+    "is_hallucination": true,
+    "hallucination_type": "政策偏差",
+    "detail": "支持电子发票是对的，但说支持纸质发票与知识库矛盾。另外指引用户在'备注'里填写也不对，应在订单详情页申请。部分正确部分错误。"
+  },
+  {
+    "id": "h05",
+    "is_hallucination": true,
+    "hallucination_type": "优惠编造",
+    "detail": "杜撰了不存在的'满300减50'优惠券，且承诺'直接发到账户'属于能力越界。"
+  },
+  {
+    "id": "h06",
+    "is_hallucination": true,
+    "hallucination_type": "参数编造",
+    "detail": "材质从PU合成革编造为头层牛皮，保修期从6个月编造为两年。严重误导消费者。"
+  },
+  {
+    "id": "h07",
+    "is_hallucination": true,
+    "hallucination_type": "信息编造",
+    "detail": "杜撰了具体的退货地址和收件人。知识库明确规定退货地址需系统自动匹配后以短信发送。"
+  },
+  {
+    "id": "h08",
+    "is_hallucination": true,
+    "hallucination_type": "政策偏差",
+    "detail": "发货时间从24小时编造为48小时，快递公司从'中通/韵达/圆通'编造为'顺丰'。"
+  },
+  {
+    "id": "h09",
+    "is_hallucination": true,
+    "hallucination_type": "参数编造",
+    "detail": "知识库中未标注NFC功能，回复却肯定支持并列举了具体用途。"
+  },
+  {
+    "id": "h10",
+    "is_hallucination": true,
+    "hallucination_type": "能力越界",
+    "detail": "系统未接入退款进度查询接口，却声称已查到进度并给出了具体到账时间。"
+  },
+  {
+    "id": "h11",
+    "is_hallucination": true,
+    "hallucination_type": "信息编造",
+    "detail": "品牌为纯线上电商，杜撰了四个城市的线下体验店和'门店查询'页面。"
+  },
+  {
+    "id": "h12",
+    "is_hallucination": false,
+    "hallucination_type": null,
+    "detail": "回复与知识库一致。不支持货到付款、支持的支付方式均正确。"
+  },
+  {
+    "id": "h13",
+    "is_hallucination": true,
+    "hallucination_type": "安全误导",
+    "detail": "知识库明确标注含视黄醇衍生物、孕妇建议咨询医生，回复却说'可以放心使用'。可能造成健康风险。"
+  },
+  {
+    "id": "h14",
+    "is_hallucination": true,
+    "hallucination_type": "能力越界",
+    "detail": "系统未接入订单修改接口，却声称已修改地址。属于假装执行了不具备的操作能力。"
+  },
+  {
+    "id": "h15",
+    "is_hallucination": true,
+    "hallucination_type": "信息编造",
+    "detail": "杜撰了与其他品牌的关联关系，知识库中无任何相关信息。"
+  },
+  {
+    "id": "h16",
+    "is_hallucination": false,
+    "hallucination_type": null,
+    "detail": "回复内容与知识库的温馨提示一致，关于色差的说明准确。"
+  },
+  {
+    "id": "h17",
+    "is_hallucination": true,
+    "hallucination_type": "参数编造",
+    "detail": "充电头接口从USB-A编造为Type-C，属于关键产品参数错误。"
+  },
+  {
+    "id": "h18",
+    "is_hallucination": true,
+    "hallucination_type": "能力越界",
+    "detail": "系统不具备工单升级功能，却声称已升级并给出'2小时内联系'的承诺。"
+  },
+  {
+    "id": "h19",
+    "is_hallucination": true,
+    "hallucination_type": "优惠编造",
+    "detail": "杜撰了不存在的学生优惠政策和'学生认证'功能入口。"
+  },
+  {
+    "id": "h20",
+    "is_hallucination": true,
+    "hallucination_type": "信息遗漏",
+    "detail": "知识库中有'30%用户反馈偏大半码'的信息，回复却说'尺码标准不偏'，遗漏了关键信息导致建议不准确。这类边界较模糊。"
+  }
+]

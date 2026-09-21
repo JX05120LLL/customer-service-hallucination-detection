@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.coverage
+htmlcov/
+.venv/
+.playwright-cli/
+/output/playwright/local-config.json

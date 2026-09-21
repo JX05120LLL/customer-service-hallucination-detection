@@ -1,0 +1,13 @@
+test_accepts_bom_and_unicode (tests.test_io_reporting.InputTests.test_accepts_bom_and_unicode) ... ok
+test_prediction_boolean_must_be_boolean (tests.test_io_reporting.InputTests.test_prediction_boolean_must_be_boolean) ... ok
+test_rejects_duplicate_id (tests.test_io_reporting.InputTests.test_rejects_duplicate_id) ... ok
+test_rejects_invalid_json_and_missing_file (tests.test_io_reporting.InputTests.test_rejects_invalid_json_and_missing_file) ... ok
+test_rejects_invalid_structures (tests.test_io_reporting.InputTests.test_rejects_invalid_structures) ... ok
+test_truth_and_predictions_can_be_loaded (tests.test_io_reporting.InputTests.test_truth_and_predictions_can_be_loaded) ... ok
+test_write_json_creates_parent_and_preserves_chinese (tests.test_io_reporting.InputTests.test_write_json_creates_parent_and_preserves_chinese) ... ok
+test_report_escapes_data_and_shows_actual_metrics (tests.test_io_reporting.ReportTests.test_report_escapes_data_and_shows_actual_metrics) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.194s
+
+OK

@@ -1,0 +1,2 @@
+# Optional: only needed for the coverage report, not for running or testing.
+coverage==7.16.0
